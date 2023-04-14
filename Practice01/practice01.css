@@ -1,0 +1,228 @@
+  .practice-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .practice-container main {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background-color: white;
+    padding-top: 1.5rem !important;
+  }
+
+  .practice01 {
+    padding: 16px;
+    position: relative;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    gap: 9px;
+    background-color: #2A303A;
+    box-sizing: border-box;
+  }
+
+  .practice01 * {
+    box-sizing: border-box;
+  }
+
+  .prac01-new {
+    width: 100%;
+  }
+
+  .prac01logo {
+    margin-bottom: 15px;
+    height: 39px;
+  }
+
+  .practice01 .practice01-new .prac01logo img {
+    vertical-align: top;
+  }
+
+  .prac01search-box {
+    margin-bottom: 5px;
+    position: relative;
+    width: 248px;
+    background-color: #fff;
+  }
+
+  .prac01search-box input {
+    padding: 5px 20px 5px 12px;
+    width: 100%;
+    height: 32px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .prac01search-box button {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .prac01search-box img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .prac01nav-box {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .prac01nav-box .prac01depth01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .prac01nav-box .prac01depth01 li a {
+    display: inline-block;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 19.2px;
+    padding: 2px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .prac01nav-box .prac01depth01 .fontcolor {
+    color: #fff;
+  }
+
+  .prac01depth01 > li {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .banner {
+    position: fixed;
+    left: 11px;
+    bottom: 14px;
+    padding: 11px 37px;
+    width: 256px;
+    background: #5731FF url(./img/question.svg) no-repeat left 9px top 9px;
+  }
+
+  .prac01nav-box .prac01depth01 .prac01title {
+    margin-bottom: 4px;
+    padding: 4px;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    float: right;
+  }
+
+  ul {
+      list-style: none;
+      padding-inline-start: 0;
+  }
+
+  a {
+      text-decoration-line: none;
+  }
+
+  img {
+    border-style: none;
+  }
+
+
+/* blockscout custom */
+.topUnit {
+  padding: 0 32px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+.topUnit * {
+  padding: 0;
+  margin: 0;
+}
+.topUnit .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.topUnit .top .location span {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.45);
+}
+.topUnit .top .location span::after {
+  margin: 0 8px;
+  content: "/";
+}
+.topUnit .top .location span:last-of-type {
+  color: #000;
+}
+.topUnit .top .location span:last-of-type::after {
+  display: none;
+}
+.topUnit .top .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.topUnit .top .user .btnAlert img {
+  width: 19px;
+  height: 24px;
+}
+.topUnit .top .user .btnPerson {
+  margin: 0 8px 0 16px;
+}
+.topUnit .top .user .btnPerson img {
+  width: 24px;
+  height: 24px;
+}
+.topUnit .top .user .name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.topUnit .title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+
+

@@ -1,0 +1,19 @@
+// 패딩 -> 보더 -> 마긴
+마진은 중복이가능하나 패딩은 중복이 불가능하다!!
+보라색이 플렉스 // 녹색이 보통 패딩
+
+
+###
+    box-sizing: border-box; 요소의 너비와 높이를 균일하게 유지해주는 편리한 속성
+
+block : 한 줄 모두 차지 (대표 element - <div>, <p> )
+inline : 콘텐츠 크기 만큼만 차지 (대표 element - <span>)
+
+relative :	요소 자기 자신을 기준으로 배치
+absolute :	부모(조상) 요소를 기준으로 배치
+
+
+
+## 에러정리
+default body maring 삭제
+    <body style="margin:0;padding:0">
